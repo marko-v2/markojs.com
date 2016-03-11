@@ -1,7 +1,7 @@
 #!/bin/bash
 set -o errexit # Exit on error
 
-TARGET_DIR="../marko-js.github.io"
+TARGET_DIR="../marko-v2.github.io"
 TARGET_DIR=`(cd $TARGET_DIR; pwd)`
 
 ./push-all.sh
